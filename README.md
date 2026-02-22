@@ -144,12 +144,16 @@ The pipeline is designed to scale to enterprise-grade document systems.
 
 LLM GENERATED OUTPUT - 
 ------------------
+
+```
 <p align="center">
   <img src="OUTPUT.png" width="900"/>
 </p>
+```
 
 
  
+
 
 
 
