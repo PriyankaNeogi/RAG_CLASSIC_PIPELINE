@@ -132,20 +132,14 @@ python main.py
 
 ```
 
- Key Design Principles
- ----------------------
-Modular architecture
-Separation of concerns
-Clean package structure
-Reusable components
-Production-ready folder layout
-
 Use Case
 --------------
+```
 This repository demonstrates document-based question answering using:
 Apple quarterly sales report (sample short PDF)
 Nike annual 10K report (long financial document)
 The pipeline is designed to scale to enterprise-grade document systems.
+```
 
 
 LLM GENERATED OUTPUT - 
@@ -156,6 +150,7 @@ LLM GENERATED OUTPUT -
 
 
  
+
 
 
 
