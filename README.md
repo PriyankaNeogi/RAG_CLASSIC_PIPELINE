@@ -62,51 +62,87 @@ RAG_CLASSIC_PIPELINE/
  Module Breakdown
  ----------------
 1️⃣ ingestion.py
+
+ ```
+
 Loads PDF documents
 Extracts raw text
 Preserves page-level metadata
+```
 
 2️⃣ embeddings.py
+
+```
 Converts text chunks into vector embeddings
 Prepares vectors for storage in Pinecone
+```
 
 3️⃣ retrieval.py
+
+```
 Performs semantic search
 Retrieves top-k relevant chunks
+```
 
 4️⃣ reranker.py
+
+```
 Improves retrieval quality
 Reorders results based on semantic relevance
+```
 
 5️⃣ generation.py
+
+```
 Sends retrieved context to LLM
 Generates final answer
+```
 
 6️⃣ config.py
+
+```
 Handles environment variables
 Centralizes configuration settings
+```
 
  How to Run
  -----------
 1️⃣ Clone Repository
+
+```
 git clone https://github.com/PriyankaNeogi/RAG_CLASSIC_PIPELINE.git
 cd RAG_CLASSIC_PIPELINE
+```
 
 2️⃣ Create Virtual Environment
+
+```
 python -m venv .venv
 source .venv/bin/activate  # Mac/Linux
+```
 
 3️⃣ Install Dependencies
+
+```
 pip install -r requirements.txt
 
+```
+
 4️⃣ Add Environment Variables
+
+```
 Create .env file:
 OPENAI_API_KEY=your_key
 PINECONE_API_KEY=your_key
 PINECONE_ENV=your_env
+```
 
 5️⃣ Run Application
+
+```
 python main.py
+
+```
 
  Key Design Principles
  ----------------------
@@ -132,6 +168,7 @@ OUTPUT -
 
 
  
+
 
 
 
