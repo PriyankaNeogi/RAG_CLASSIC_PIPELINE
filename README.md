@@ -123,6 +123,15 @@ Apple quarterly sales report (sample short PDF)
 Nike annual 10K report (long financial document)
 The pipeline is designed to scale to enterprise-grade document systems.
 
+
+OUTPUT - 
+-------
+<p align="center">
+  <img src="OUTPUT.png" width="900"/>
+</p>
+
+
  
+
 
 
