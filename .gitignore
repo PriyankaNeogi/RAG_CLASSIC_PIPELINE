@@ -1,0 +1,18 @@
+# Virtual Environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+apps/.env
+
+# Lock files
+uv.lock
+.python-version
+
+# Mac
+.DS_Store

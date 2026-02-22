@@ -1,0 +1,12 @@
+[project]
+name = "rag-classic-pipeline"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "langchain-openai>=1.1.10",
+    "pinecone>=8.1.0",
+    "pypdf>=6.7.1",
+    "python-dotenv>=1.2.1",
+]
