@@ -34,6 +34,7 @@ API Endpoint Integration
 ----------------------
  Project Structure
  ----------------
+
 RAG_CLASSIC_PIPELINE/
 │
 ├── apps/
@@ -50,6 +51,7 @@ RAG_CLASSIC_PIPELINE/
 ├── main.py
 ├── pyproject.toml
 ├── requirements.txt
+├── rag_architecture.png
 └── README.md
 
 
@@ -118,3 +120,4 @@ Nike annual 10K report (long financial document)
 The pipeline is designed to scale to enterprise-grade document systems.
 
  
+
