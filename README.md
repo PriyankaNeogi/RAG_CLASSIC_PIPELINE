@@ -122,7 +122,7 @@ pip install -r requirements.txt
 Create .env file:
 OPENAI_API_KEY=your_key
 PINECONE_API_KEY=your_key
-PINECONE_ENV=your_env
+
 ```
 
 5️⃣ Run Application
@@ -153,6 +153,7 @@ LLM GENERATED OUTPUT -
 
 
  
+
 
 
 
