@@ -2,34 +2,22 @@
 --------------------------------------
 A modular, production-style implementation of a Retrieval-Augmented Generation (RAG) system built from scratch using clean architecture principles.
 This project demonstrates how to design and implement a complete RAG pipeline including:
-PDF ingestion
-Text chunking with page tracking
-Embedding generation
-Pinecone vector storage
-Semantic search
-Reranking
-Answer generation
-API integration
+```
+- PDF ingestion
+- Text chunking with page tracking
+- Embedding generation
+- Pinecone vector storage
+- Semantic search
+- Reranking
+- Answer generation
+```
 
 <p align="center">
   <img src="rag_architecture.png" width="900"/>
 </p>
 
 
---------
-System Architecture
------------------------
-The pipeline is divided into clearly separated modules to maintain scalability and maintainability.
--  End-to-End Flow
 
-PDF Ingestion
-Text Chunking + Page Tracking
-Pinecone Index Creation
-Embedding Generation & Storage
-Semantic Search
-Reranking
-Answer Generation
-API Endpoint Integration
 
 ----------------------
  Project Structure
@@ -168,6 +156,7 @@ LLM GENERATED OUTPUT -
 
 
  
+
 
 
 
